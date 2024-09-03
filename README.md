@@ -1,36 +1,138 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Taalim - High School Educational App (In Development)
 
-## Getting Started
+Welcome to Taalim, a high school educational app currently under development. Taalim is designed to enhance the learning experience for high school students by providing interactive lessons, quizzes, and a wealth of resources aligned with the curriculum.
+Table of Contents
 
-First, run the development server:
+    About Taalim
+    Features (Planned)
+    Technology Stack
+    Installation
+    Development Roadmap
+    Contributing
+    License
+    Contact
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+About Taalim
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Taalim aims to transform traditional education by leveraging modern technology to create an engaging and effective learning platform for high school students. While the app is still in the early stages of development, the goal is to offer a comprehensive suite of educational tools that cater to the diverse needs of students.
+Features (Planned)
+Interactive Lessons
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+We are working on a feature that will allow students to access interactive lessons in core subjects such as Mathematics, Science, History, and Literature. Each lesson will be designed to encourage active participation and enhance understanding.
+Quizzes and Assessments
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Taalim will include quizzes to help students assess their knowledge. Detailed explanations and instant feedback will guide students toward mastering each topic.
+Personalized Learning
 
-## Learn More
+We plan to implement personalized learning paths that adapt to each student's progress and preferences, offering tailored recommendations to help them succeed.
+Offline Access
 
-To learn more about Next.js, take a look at the following resources:
+A feature is being developed to allow students to download lessons and quizzes for offline use, ensuring continuous learning regardless of internet availability.
+Progress Tracking
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Students will be able to track their learning journey, set goals, and monitor their achievements over time.
+Resource Library
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+We are curating a resource library that will include videos, articles, and practice materials to supplement the lessons and provide additional learning opportunities.
+Technology Stack
 
-## Deploy on Vercel
+Taalim is being built using modern web development technologies to ensure a smooth and scalable user experience:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    Frontend: NextJS,Typescript, ReactJS, Tailwind CSS
+    Backend: Node.js, Express.js
+    Database: MongoDB
+    Authentication: JWT (JSON Web Tokens)
+    APIs: RESTful APIs
+    Hosting: Planned deployment on AWS/GCP
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Installation
+
+To set up the development environment for Taalim locally, follow these steps:
+
+    Clone the repository:
+
+    bash
+
+git clone https://github.com/akuila-dok/taalim.git
+
+Navigate to the project directory:
+
+bash
+
+cd taalim
+
+Install dependencies:
+
+bash
+
+npm install
+
+Set up environment variables: Create a .env file in the root directory and add your environment variables (e.g., database connection strings, API keys).
+
+Run the development server:
+
+bash
+
+    npm start
+
+The app should now be running on http://localhost:3000.
+Development Roadmap
+
+The development of Taalim is ongoing, and the following features are planned:
+
+    MVP (Minimum Viable Product)
+        Basic interactive lessons for key subjects.
+        Initial quizzes and assessments.
+        Basic user authentication and profile management.
+        Simple progress tracking for students and monitoring for teachers and parents.
+
+    Version 1.0
+        Full lesson library with interactive content.
+        Comprehensive quizzes with advanced feedback.
+        Personalized learning paths for students.
+        Offline access to content.
+        Detailed progress tracking and goal setting.
+        Resource library integration.
+        Enhanced communication tools for teachers and parents.
+        Student, Teacher, and Parent Dashboards for tailored user experiences.
+
+    Future Enhancements
+        Community and discussion forums.
+        AI-powered content recommendations.
+        Gamification features to boost engagement.
+  
+Contributing
+
+We welcome contributions from the community to help build Taalim! If you are interested in contributing, please follow these steps:
+
+    Fork the repository on GitHub.
+    Create a new branch for your feature or bugfix:
+
+    bash
+
+git checkout -b feature/your-feature-name
+
+Commit your changes:
+
+bash
+
+git commit -m "Add your commit message"
+
+Push to your branch:
+
+bash
+
+    git push origin feature/your-feature-name
+
+    Create a Pull Request on GitHub, describing the changes you've made.
+
+Please ensure your contributions align with the Code of Conduct and Contributing Guidelines.
+License
+
+Taalim is licensed under the MIT License. See the LICENSE file for more information.
+
+Contact
+
+If you have any questions, suggestions, or feedback, please feel free to reach out:
+
+    Email: miyomdok@gmail.com or timothybaraka@gmail.com
